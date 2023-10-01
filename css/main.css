@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@600&display=swap');
+
+:root {
+    --sbGreen: #006241;
+    --accGreen: #00754A;
+    --lightGreen: #D4E9E2;
+    --houseGreen: #1E3932;
+    --trueBlack: rgba(0,0,0,.87);
+    --warmNeutral: #F2F0EB;
+    --coolNeutral: #F9F9F9;
+    --trueWhite: #FFFFFF;
+    --rewardsGold: #CBA258;
+    --lightGold: #FAF6EE;
+    --errorRed: #D62B1F;
+    --warningYellow: #FBBC05;
+    --lightGray: #E5E5E5;
+    --blackText: rgba(0,0,0,.87);
+    --blackText2: rgba(0,0,0,.67);
+    --blackText2a: rgba(0,0,0,.58);
+    --blackText3: rgba(0,0,0,.47);
+    --softBtext: #797979;
+    --whiteText: #FFFFFF;
+    --whiteText2: rgb(255 255 255 / 77%);
+    --defaultAnimationEasing: cubic-bezier(0.25,0.1,0.25,1);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: var(--sbGreen);
+    color: var(--blackText);
+}
+ /*dito yung nav*/
+header {
+    height: 60px;
+    width: auto;
+    background-color: var(--trueWhite);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    border-bottom: solid var(--trueBlack) 1px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+    padding: 10px;
+}
+
+.logobox {
+    display: inline-flex;
+}
+
+#logo-desc {
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    color: #000;
+}
+/*end ng navigation*/
+
+/*ito yung wave divider itong intro*/
+.intro {
+    background-image: url("/img/wave.svg");
+    background-size: cover;
+    width: auto;
+    height: 200px;
+}
+/*ito yung una nating content */
+.first-content figure {
+    color: var(--whiteText);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-content figure img {
+    width: auto;
+    height:300px;
+}
+
+
+.first-content figure figcaption {
+    font-size: larger;
+    font-family: 'Dancing Script',cursive;
+    font-size: 4.5rem;
+    font-weight: bolder;
+}
+
+#first-content-button {
+    height: 40px;
+    width: auto;
+    border: 1px solid white;
+    border-radius: 1.3rem;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--accGreen);
+    color: white;
+    position: relative;
+    left: 70%;
+    bottom: 6rem;
+}
+/* ito yung divider natin an outro isa ring wave */
+.outro {
+    background-image: url("/img/waveout.svg");
+    background-size: cover;
+    width: auto;
+    height: 200px;
+}
+
+/*dito mangagaling yung second content natin na slides*/
+.intro1, .outro1 {
+    background-color: var(--coolNeutral);
+    background-size: cover;
+    width: auto;
+    height: 50px;
+}
+
+
+.slides {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--houseGreen);    
+    opacity: 76%;
+    height: 1200px;
+    width: auto;
+    
+}
+
+.slidesbox {
+    flex-direction: row;
+    height: auto;
+    width: 50%;
+}
+
+#box1, #box4, #box5, #box8 {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--coolNeutral);
+}
+
+#box2, #box3, #box6, #box7 {
+    text-align: center;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 2rem;
+}
+
+#box1 {
+    background-image: url("/img/quote1.png");
+}
+
+#box4 {
+    background-image: url("/img/quote2.png");
+}
+
+#box5 {
+    background-image: url("/img/quote3.png");
+}
+
+#box8 {
+    background-image: url("/img/quote4.png");
+}
