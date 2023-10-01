@@ -77,7 +77,7 @@ header {
 
 /*ito yung wave divider itong intro*/
 .intro {
-    background-image: url("/img/wave.svg");
+    background-image: url("img/wave.svg");
     background-size: cover;
     width: auto;
     height: 200px;
@@ -118,7 +118,7 @@ header {
 }
 /* ito yung divider natin an outro isa ring wave */
 .outro {
-    background-image: url("/img/waveout.svg");
+    background-image: url("img/waveout.svg");
     background-size: cover;
     width: auto;
     height: 200px;
@@ -166,17 +166,17 @@ header {
 }
 
 #box1 {
-    background-image: url("/img/quote1.png");
+    background-image: url("img/quote1.png");
 }
 
 #box4 {
-    background-image: url("/img/quote2.png");
+    background-image: url("img/quote2.png");
 }
 
 #box5 {
-    background-image: url("/img/quote3.png");
+    background-image: url("img/quote3.png");
 }
 
 #box8 {
-    background-image: url("/img/quote4.png");
+    background-image: url("img/quote4.png");
 }
